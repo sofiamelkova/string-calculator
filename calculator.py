@@ -132,7 +132,7 @@ if check:
                         op = oper.pop()
                         numb.append(un_operation(y, op))
                     i += 1
-                else:                          # если эдемент строки не число, не операция и не скобка
+                else:                          # если элемент строки не число, не операция и не скобка
                     print('Incorrect expression')
                     check = 0
                     break
